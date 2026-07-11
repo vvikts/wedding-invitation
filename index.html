@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Буда & Дарья | Свадебное приглашение</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Forum&family=Great+Vibes&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <p class="hero-subtitle">Приглашение на свадьбу</p>
+            <img src="images/names.svg" alt="Буда & Дарья" class="hero-title-svg">
+            <p class="hero-date">16 августа 2026</p>
+            <div class="countdown" id="countdown">
+                <div class="countdown-item">
+                    <span class="countdown-number" id="days">00</span>
+                    <span class="countdown-label">дней</span>
+                </div>
+                <div class="countdown-item">
+                    <span class="countdown-number" id="hours">00</span>
+                    <span class="countdown-label">часов</span>
+                </div>
+                <div class="countdown-item">
+                    <span class="countdown-number" id="minutes">00</span>
+                    <span class="countdown-label">минут</span>
+                </div>
+            </div>
+            <a href="#rsvp" class="btn-primary">Подтвердить участие</a>
+        </div>
+        <div class="scroll-hint">
+            <span>↓</span>
+            <p>Листайте вниз</p>
+        </div>
+    </section>
+
+    <!-- Timeline Section -->
+    <section class="timeline section">
+        <div class="container">
+            <h2 class="section-title">Программа дня</h2>
+            <div class="timeline-container">
+                <div class="timeline-item">
+                    <div class="timeline-time">16:30</div>
+                    <div class="timeline-content">
+                        <h3>👥 Сбор гостей</h3>
+                        <p>Welcome-зона, фуршет, фотосессия</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-time">17:00</div>
+                    <div class="timeline-content">
+                        <h3>️🥂 Банкет</h3>
+                        <p>Праздничный ужин, танцы и развлечения</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-time">23:00</div>
+                    <div class="timeline-content">
+                        <h3>🎆 Завершение вечера</h3>
+                        <p>Свадебный торт и фейерверк</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Location Section -->
+    <section class="location section">
+        <div class="container">
+            <h2 class="section-title">Место проведения</h2>
+            <div class="location-content">
+                <div class="location-info">
+                    <h3>Кейтеринг «Сезон»</h3>
+                    <p>📍 г. Чита, ул. Смоленская, 60</p>
+                    
+                    <div class="map-buttons">
+                        <a href="https://go.2gis.com/eyt4N" target="_blank" class="btn-secondary">
+                            📍 Открыть в 2GIS
+                        </a>
+                        <a href="https://yandex.ru/maps/?text=Чита+Смоленская+60" target="_blank" class="btn-secondary">
+                            🗺️ Открыть в Яндекс Картах
+                        </a>
+                    </div>
+                </div>
+                <div class="location-map">
+                    <iframe src="https://yandex.ru/map-widget/v1/-/CHY~Чита~Смоленская~60~Кейтеринг+Сезон" 
+                            frameborder="0" 
+                            allowfullscreen 
+                            style="width: 100%; height: 100%;">
+                    </iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- RSVP Section -->
+    <section class="rsvp section" id="rsvp">
+        <div class="container">
+            <h2 class="section-title">Подтвердите участие</h2>
+            <p class="section-subtitle">Пожалуйста, заполните форму до 1 августа 2026</p>
+            
+            <div class="google-form-container">
+                <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdfHyz0qtRO8oqd8PndOUHQVb1W3dIJBaLLcfDsnM4gKejT2w/viewform?embedded=true" 
+                        width="100%" 
+                        height="900" 
+                        frameborder="0" 
+                        marginheight="0" 
+                        marginwidth="0">
+                    Загрузка...
+                </iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p class="footer-text">До встречи на свадьбе!</p>
+            <p class="footer-contacts">
+                По всем вопросам обращайтесь к координатору:<br>
+                <a href="tel:+79999999999">+7 (999) 999-99-99</a>
+            </p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
